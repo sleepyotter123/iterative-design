@@ -8,6 +8,7 @@ h4 {font-family: 'Roboto', sans-serif;} */
 .image-wrapper{
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     padding: 25px 0px 25px 0px;
     align-items: center;
     justify-content: center;
@@ -22,6 +23,7 @@ h4 {font-family: 'Roboto', sans-serif;} */
     flex: 1;
     overflow: auto;
     flex-direction: row; */
+    overflow: auto;
     position: relative;
     padding: 0px;
     width: 100%;
@@ -59,6 +61,24 @@ h4 {font-family: 'Roboto', sans-serif;} */
   flex-direction: row;
   position: relative;
   padding: 15px;
+}
+
+.zoom{
+  transition: transform .5s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+.website-buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.button-image{
+  padding: 10px;
 }
 
 
